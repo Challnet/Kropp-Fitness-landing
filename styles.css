@@ -362,7 +362,7 @@ h6 {
   color: var(--color-light);
   background-color: transparent;
   border: var(--border);
-  border-radius: var(--border-radius);
+  border-radius: 50%;
 }
 
 .header__burger-button:hover {
