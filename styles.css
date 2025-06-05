@@ -309,6 +309,11 @@ h6 {
   background-color: var(--color-light-gray);
 }
 
+.transparent {
+  background-color: transparent;
+  border: var(--border);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -456,6 +461,21 @@ h6 {
 
 .banner__pagination-button:not(.is-current):hover::after {
   border-color: var(--color-light-gray);
+}
+
+.motivation__item:nth-child(even) {
+  background-color: var(--color-dark-alternative);
+}
+
+.motivation__item:nth-child(even) .motivation__card {
+  flex-direction: row-reverse;
+}
+
+.motivation__card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: clamp(30px, 10.42vw, 200px);
 }
 
 @media (max-width: 1024px) {
